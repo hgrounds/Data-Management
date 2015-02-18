@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97A81D8D-587E-4215-6CD0-EDADA97E72E1" name="projown">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:56:11 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="projown_id" id="4CD7B729-89C6-3EB5-6D62-7498A94F81C7">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:57:28 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="35315FE8-529D-4E76-7967-B5EDA1C9A16C">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 20:13:27 UTC</createdTime>
+<generatorID>27F898E4-7E9C-D738-D8A6-CD26A15A4073</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<referedAttribute>289EE427-74EE-6DA1-96F7-2956F50F803C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="6E8692D8-6B96-A6FD-36ED-A12F532EBB1F">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 20:17:03 UTC</createdTime>
+<generatorID>0A3C85B4-6D67-AAD0-BF93-AAB27AD452D2</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<referedAttribute>42D927EC-7813-2778-DEC3-A3EF09817D50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BA82A48-C8C0-4559-10A0-08899E86AE1D" name="project_ownership PK">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:57:31 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CD7B729-89C6-3EB5-6D62-7498A94F81C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

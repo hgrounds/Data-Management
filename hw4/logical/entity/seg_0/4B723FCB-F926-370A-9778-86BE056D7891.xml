@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B723FCB-F926-370A-9778-86BE056D7891" name="SIM_Person">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:19:20 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="289EE427-74EE-6DA1-96F7-2956F50F803C">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:19:29 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="20834C62-5744-B800-3D6F-C2F6C90E8040">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:52:37 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="E4148987-36EA-5A57-92C5-CDEF0DF98FA0">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:20:38 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="A8B14822-A561-47B9-57E4-D829F2FD9299">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:20:53 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="43EA8023-9D3D-624B-B94C-2CCB7A218934">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:21:03 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="4B66D520-71DC-0195-8138-156638CEE38F">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:21:20 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="90246782-063B-369E-A3D6-879D8105C043">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:21:32 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="14CDCE25-49E1-A429-485F-201180323D58">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:21:52 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="9620CD40-33AA-D28D-E1B3-2D0F67CBDA2D">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:22:05 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="292706D0-40D9-9CC3-DC4D-776C87DB12F4">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:22:13 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="emp_id" id="2C71FF85-3D3C-FF01-8126-F79C1DCA0E3E">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:53:43 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="5D5465C5-C97D-DC8E-5A57-4B491E7B9CB3">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:53:54 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="80043E8B-1F56-5E07-8763-889DA311D924">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:54:01 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="B6F8EF7A-9705-7D9F-20C3-52656A202C84">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:54:12 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="B0328A14-0D6A-412A-8769-64FA71329DB7">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:54:55 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="490D7C6A-518F-99E3-5562-6B5FD69B3132">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:55:12 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="A26BBF1B-7ADB-4542-DD1C-3C548C545DD8">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:55:20 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="D0D7F249-CE54-C04A-BC59-802C5DDF4C03">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 04:05:52 UTC</createdTime>
+<generatorID>E06963A5-AC0B-A5A9-063C-A00B3AFC6E0E</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9C0DA127-8798-40F8-1B54-BFC0226D2A90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="D9F50B2E-8A19-C8C5-A33B-776EF7431C2C">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 04:06:22 UTC</createdTime>
+<generatorID>627E560F-72FB-1D52-B136-85993C47A39F</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9C0DA127-8798-40F8-1B54-BFC0226D2A90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="039E4DBA-1C9D-2498-4E34-0B5EBC8B67AA" name="SIM_Person PK">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:20:37 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>289EE427-74EE-6DA1-96F7-2956F50F803C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

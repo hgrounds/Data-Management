@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCAA851F-512D-2799-AB1B-33C059F8ED3D" name="SIM_dept">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:38:03 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_id" id="9C0DA127-8798-40F8-1B54-BFC0226D2A90">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:38:15 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="854932DA-370C-B24A-634F-47B76E396D85">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:38:24 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="location" id="D5799B0A-AD8E-596F-C344-8C2F7A110B44">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:38:32 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="person_id" id="5BC8EF7A-8F94-B1BB-C7E7-D5940EA3B786">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 04:05:39 UTC</createdTime>
+<generatorID>E06963A5-AC0B-A5A9-063C-A00B3AFC6E0E</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>289EE427-74EE-6DA1-96F7-2956F50F803C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2C9F412-A865-CBC1-2C35-194C39A3D741" name="SIM_dept PK">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:38:23 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C0DA127-8798-40F8-1B54-BFC0226D2A90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A525D0F8-5A20-F07E-3625-3EB216FDB671" name="SIM_project">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:37:14 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="42D927EC-7813-2778-DEC3-A3EF09817D50">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:37:26 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="2B05BB0A-57BB-095E-D919-0A442879B93F">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:37:36 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="E236C104-10EF-C9F3-3AE1-FC08243B027A">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:40:14 UTC</createdTime>
+<generatorID>A85DADB4-7BFE-A833-44C6-454423ECAC70</generatorID>
+<ownerDesignName>hw4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9C0DA127-8798-40F8-1B54-BFC0226D2A90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="157A7C42-0F02-5B77-2E20-CC0A5F960C7D" name="SIM_project PK">
+<createdBy>Jim</createdBy>
+<createdTime>2015-02-17 03:37:35 UTC</createdTime>
+<ownerDesignName>hw4</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42D927EC-7813-2778-DEC3-A3EF09817D50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
